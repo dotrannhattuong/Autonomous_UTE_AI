@@ -201,6 +201,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 		/*************************************/ 
 		
 		/************* Control *************/ 
+//		Run(&Esc, &Servo, -10, 0);
 		if (flag_button == 0) Run(&Esc, &Servo, 0, 0); // Speed, Angle
 		else Run(&Esc, &Servo, receive_speed, receive_angle);  // Run(&Esc, &Servo, -10, 0); // Speed, Angle
 		}
