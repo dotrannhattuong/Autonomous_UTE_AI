@@ -30,7 +30,7 @@ class Communication:
 
     @staticmethod
     def speed_limit(speed):
-        return np.clip(speed, -5, 10)
+        return np.clip(speed, -10, 25)
 
     @staticmethod
     def angle_limit(angle):

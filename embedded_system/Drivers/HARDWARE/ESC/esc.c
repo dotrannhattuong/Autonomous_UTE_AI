@@ -33,7 +33,7 @@ void Acceleration(float V_want, float *vout, float _acc, float _dcc) {
 float ESC_Caliration(float speed) {
 	float esc_speed;
 	
-	esc_speed =  0.5 * (double)speed + 100; //from 45 to 250
+	esc_speed =  0.5 * (double)speed + 100; // 65 (reverse) - 100 (stop) - 235 (drive)
 
 	return esc_speed;
 }

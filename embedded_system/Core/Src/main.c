@@ -111,7 +111,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 	/************** ESC **************/
-	ESC_Init(&Esc, 100, -10, 15);
+	ESC_Init(&Esc, 100, -10, 25);
 //	TIM3->CCR2 = 100;
 
 	/************** SERVO **************/
